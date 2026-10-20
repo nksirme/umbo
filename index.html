@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#061e49" />
+    <meta name="description" content="UMBO — one digital presence, connected to the real world." />
+    <link rel="icon" href="/brand/umbo-mark.svg" />
+    <title>UMBO — One digital presence</title>
+    <style>
+      .boot-screen{min-height:100vh;display:grid;place-items:center;padding:24px;background:#f2f7fc;color:#102748;font-family:Inter,"Segoe UI",Arial,Helvetica,sans-serif;box-sizing:border-box}
+      .boot-card{width:100%;max-width:480px;background:white;border:1px solid #e1e9f2;border-radius:14px;overflow:hidden;box-shadow:0 12px 40px #103a6c12}.boot-brand{background:#061e49;padding:24px}.boot-brand img{display:block;max-width:100%;height:auto}.boot-content{padding:28px}.boot-eyebrow{display:block;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#0866b9}.boot-content h1{margin:16px 0;font-size:30px;line-height:1.15;letter-spacing:-.04em}.boot-content p{color:#586c85;font-size:15px;line-height:1.7}.boot-button{display:block;min-height:45px;margin-top:24px;padding:11px 21px;border:0;border-radius:8px;background:#0866b9;color:white;font:600 14px Inter,"Segoe UI",Arial,sans-serif;cursor:pointer}.boot-button:focus-visible,.boot-link:focus-visible{outline:3px solid #429cce;outline-offset:4px}.boot-link{display:inline-block;margin-top:18px;color:#0866b9;font-size:14px}.boot-noscript{padding:16px;background:#fff3cf;color:#88601c;font:15px/1.6 Arial,sans-serif}
+    </style>
+  </head>
+  <body>
+    <div id="root"><section id="startup-fallback" class="boot-screen" role="status"><div class="boot-card"><div class="boot-brand"><img src="/brand/umbo-logo-inverse.svg" alt="UMBO" width="131" height="35" /></div><div class="boot-content"><span class="boot-eyebrow">One digital presence</span><h1>Loading your UMBO…</h1><p data-startup-message>Your next connection is almost here.</p><div data-startup-actions hidden><button class="boot-button" data-startup-reload type="button">Reload UMBO</button></div></div></div></section></div>
+    <noscript><p class="boot-noscript">Enable JavaScript in your browser to use the interactive UMBO prototype.</p></noscript>
+    <script src="/startup.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

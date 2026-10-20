@@ -1,0 +1,26 @@
+
+> umbo-mobile-prototype@1.0.0 start
+> npm run release && vite preview --host 0.0.0.0 --port 5173 --strictPort
+
+
+> umbo-mobile-prototype@1.0.0 release
+> npm run build -- --mode production
+
+
+> umbo-mobile-prototype@1.0.0 build
+> vite build --mode production
+
+vite v7.1.10 building for production...
+transforming...
+✓ 91 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                          2.53 kB │ gzip:   1.18 kB
+dist/assets/pdf.worker-ByF8NTMy.mjs  2,346.45 kB
+dist/assets/index-C_8PJauk.css         121.69 kB │ gzip:  24.25 kB
+dist/assets/pdf.worker-B4IDxXWI.js       0.06 kB │ gzip:   0.08 kB
+dist/assets/index-Cdt57a3J.js          364.34 kB │ gzip: 113.01 kB
+dist/assets/pdf-9C_d_JFN.js            379.03 kB │ gzip: 114.08 kB
+✓ built in 10.28s
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://10.0.2.100:5173/
